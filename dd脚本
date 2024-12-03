@@ -1,0 +1,15 @@
+一键脚本
+
+apt update -y && apt install -y wget sudo
+
+wget --no-check-certificate -O tcpx.sh https://raw.githubusercontent.com/ylx2016/Linux-NetSpeed/master/tcpx.sh
+
+chmod +x tcpx.sh
+
+./tcpx.sh
+
+
+
+以后运行
+
+./tcpx.sh
